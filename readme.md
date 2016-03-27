@@ -1,7 +1,7 @@
 This program should be run on @well.cs.ucr.edu server, with postgre sql installed.
 
 Files description:
-* ''project/data'' - contains the files, which will be used to populate your database
+* ``project/data`` - contains the files, which will be used to populate your database
 * ''project/sql/src/create tables.sql'' - SQL script creating the database relational schema. It also includes the commands to drop these tables.
 * project/sql/src/create indexes.sql - SQL script which creates database indexes. Initially is empty, you should add all your indexes to this file.
 * project/sql/src/load data.sql - SQL script for loading the data in your tables. The script loads each text file into the appropri- ate table. Note that the file paths have to be changed to absolute paths in order to make it work.
